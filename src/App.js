@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
-
+import { Desktop } from './Components/Navbar/Desktop';
+import Mobile from './Components/Navbar/Mobile';
 function App() {
+  document.title="Rishav's Portfolio";
+  const [size, setSize] = useState(window.innerWidth);
+  const updateSize = () =>
+    setSize(window.innerWidth);
+  useEffect(() => (window.onresize = updateSize), []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        size>=525? <Desktop /> : <Mobile/>
+      }
+      <p>width= {size}</p>
+
     </div>
   );
 }
