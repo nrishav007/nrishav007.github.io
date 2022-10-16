@@ -1,3 +1,7 @@
 .NavBtn{
     box-shadow: rgba(0, 247, 255, 0.25) 0px 54px 55px, rgba(0, 217, 255, 0.25) 0px -12px 30px, rgba(0, 255, 191, 0.25) 0px 4px 6px, rgba(0, 238, 255, 0.329) 0px 12px 13px, rgba(0, 255, 221, 0.25) 0px -3px 5px;
 }
+.NavBtn:hover{
+    color: black;
+    box-shadow: rgba(229, 255, 0, 0.25) 0px 54px 55px, rgba(229, 255, 0, 0.25) 0px -12px 30px, rgba(229, 255, 0, 0.25) 0px 4px 6px, rgba(229, 255, 0, 0.25) 0px 12px 13px, rgba(229, 255, 0, 0.25) 0px -3px 5px;
+}
