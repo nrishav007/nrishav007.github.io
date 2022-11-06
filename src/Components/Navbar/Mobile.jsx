@@ -11,8 +11,8 @@ const Mobile = () => {
         {name: "Projects"},
         {name: "Contact"}];
     return (
-        <Box>
-            <Flex color={"white"} backgroundColor={"blue.700"} h="auto" position={"sticky"} top="0" padding={5} justifyContent={'space-between'}>
+        <Box zIndex={"999"} position={"sticky"} top={"0px"}>
+            <Flex color={"white"} backgroundColor={"blue.700"} h="auto" padding={5} justifyContent={'space-between'}>
                 <Center fontWeight={'bold'} fontSize="20px">Rishav's Portfolio</Center>
             <Button ref={btnRef} colorScheme='yellow' onClick={onOpen}>
             <IoMdMenu size="26px" />
