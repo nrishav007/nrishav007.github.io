@@ -1,9 +1,9 @@
 import { Box, Center, Img, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 
-const Skills = ({SkillsRef}) => {
+const Skills = () => {
   return (
-    <Box backgroundColor={"blue.700"} color="white" h={"600px"} ref={SkillsRef}>
+    <Box backgroundColor={"blue.700"} color="white" h={"600px"} id="Skills">
       <Center>
         <Text marginTop={"30px"} fontSize={["20px","20px","20px","35px"]}>Skills that I know</Text>
       </Center>

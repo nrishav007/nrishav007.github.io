@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = ({AboutRef}) => {
   return (
-    <Box ref={AboutRef} h={"600px"}>
+    <Box id='About Me' ref={AboutRef} h={"600px"}>
       <Box backgroundColor={"blue.700"} color="white"  h={"full"} paddingBottom={"90px"}>
         <Text fontSize={["10px","20px","20px","35px"]} marginBottom="50px">About Me</Text>
         <Center>

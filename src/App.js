@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => (window.onresize = updateSize), []);
 
-  const HomeRef = useRef(null);
+  const HomeRef = useRef();
   const AboutRef = useRef();
   const SkillsRef = useRef();
   const ProjRef = useRef();
