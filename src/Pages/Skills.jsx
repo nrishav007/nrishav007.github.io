@@ -7,7 +7,7 @@ const Skills = () => {
       <Center>
         <Text marginTop={"30px"} fontSize={["20px","20px","20px","35px"]}>Skills that I know</Text>
       </Center>
-      <SimpleGrid columns={[1, 2, 3, 4]} marginTop="70px">
+      <SimpleGrid columns={[2, 2, 3, 4]} marginTop="70px">
         <Center>
           <Img style={{ margin: "10px" }} src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height={["90","90","100","150"]} />
         </Center>

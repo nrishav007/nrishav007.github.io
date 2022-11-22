@@ -10,23 +10,33 @@ const Desktop = () => {
         { name: "Skills" },
         { name: "Projects" },
         { name: "Contact" }];
-        // onClick={()=>scroll(index)}
         const [visible,setVisible] = useState(false)
         const closeMenu = ()=>{
             setVisible(true)
-        }    
+        }
+        const [val,setval]=useState("NavBtn");
+        
+            setInterval(()=>{
+                if(val==="NavBtn"){
+                    setval("")
+                }
+                else{
+                    setval("NavBtn");
+                }
+            },5000)
+        
     return (
         <Flex zIndex={"999"} backgroundColor={"blue.700"} h="auto" position={"sticky"} top={"0px"} gap={"50px"} >
             <Center color={"white"} w={["300px", "400px", "400px"]} fontWeight={'bold'} fontSize={["15px","15px","10px","20px"]}>Rishav's Portfolio</Center>
-            <SimpleGrid columns={[2, 3, 6]} padding={[2,2,2,7]} margin={"auto"} alignItems={"center"} w={"full"} justifyContent={'space-around'} gap={"7px"}>
+            <SimpleGrid columns={[2, 3, 3, 6]} padding={[2,2,2,7]} margin={"auto"} alignItems={"center"} w={"full"} justifyContent={'space-around'} gap={"7px"}>
                 {
-                    tabs.map(({ name }) => (
-                        <Link to={name} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}}>
-                            <Button  color={"white"} backgroundColor={"blue.700"} className='NavBtn' >{name}</Button>
+                    tabs.map(({ name },index) => (
+                        <Link to={name} key={index} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}}>
+                            <Button  color={"white"} backgroundColor={"blue.700"} className={val} >{name}</Button>
                         </Link>
                     ))
                 }
-                <a href={rishav} download={true}><Button color={"white"} backgroundColor={"blue.700"} className='NavBtn'>Resume</Button></a>
+                <a href={rishav} download={true}><Button color={"white"} backgroundColor={"blue.700"} className={val}>Resume</Button></a>
             </SimpleGrid>
         </Flex>
     )

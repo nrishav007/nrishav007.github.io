@@ -1,18 +1,14 @@
-import { Box, Button, Center, Img, SimpleGrid, Text } from '@chakra-ui/react';
+import { Button, Center, Img, SimpleGrid, Text } from '@chakra-ui/react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 const Project = ({ title, bio, image, github, live }) => {
 
     return (
-        <SimpleGrid columns={[1, 1, 2, 2]} id='proj' gap={"30px"} padding={"20px"} borderRadius="10%">
-                
-                <SimpleGrid columns={[1, 1, 1, 1]}>
+        <SimpleGrid columns={1} id='proj' gap={"30px"} padding={"20px"} borderRadius="10%">
                     <Center>
-                        <Img margin={"20px"} w={"300px"} h={"200px"} src={image} />
+                        <Img margin={"20px"} w={"400px"} h={"250px"} src={image} />
                     </Center>
                     <Center>{title} Clone</Center>
-                    
-                </SimpleGrid>
                 <Center>
                         <Text>{bio}</Text>
                     </Center>

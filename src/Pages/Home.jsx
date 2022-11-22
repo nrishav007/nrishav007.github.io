@@ -10,7 +10,7 @@ const Home = () => {
       <Center fontSize={["20px","20px","50px","70px"]} color={"white"}>I'm Rishav Neogi</Center>
       <Center fontSize={["10px","10px","20px","30px"]}>Aspiring Full Stack Web Developer</Center>
       </Box>
-      <Img marginTop={"25px"} w={["150px","150px","250px","300px"]} borderRadius="10%" h={["150px","150px","250px","300px"]} src={Rishav} alt='port' />
+      <Img marginTop={"25px"} w={["150px","150px","250px","300px"]} borderRadius="10%" h={["180px","180px","250px","350px"]} src={Rishav} alt='port' />
     </Flex>
     </Box>
   )

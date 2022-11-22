@@ -1,6 +1,7 @@
 import { Box, Button, Center, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, Flex, useDisclosure } from '@chakra-ui/react'
-import React from 'react';
+import React, { useState } from 'react';
 import {  IoMdMenu } from 'react-icons/io';
+import { Link } from 'react-scroll';
 const Mobile = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const btnRef = React.useRef()
@@ -10,6 +11,10 @@ const Mobile = () => {
         {name: "Skills"},
         {name: "Projects"},
         {name: "Contact"}];
+        const [visible,setVisible] = useState(false)
+        const closeMenu = ()=>{
+            setVisible(true)
+        }    
     return (
         <Box zIndex={"999"} position={"sticky"} top={"0px"}>
             <Flex color={"white"} backgroundColor={"blue.700"} h="auto" padding={5} justifyContent={'space-between'}>
@@ -32,7 +37,8 @@ const Mobile = () => {
                     <DrawerBody>
                         {
                             tabs.map(({name}, index)=>(
-                                <Box key={index} onClick={onClose} marginBottom={9} textAlign={"center"}>{name}</Box>
+                                <Link to={name} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}}>
+                                <Box key={index} onClick={onClose} marginBottom={9} textAlign={"center"}>{name}</Box></Link>
                             ))
                         }
                         

@@ -7,6 +7,7 @@ import { About } from './Pages/About';
 import { Skills } from './Pages/Skills';
 import { Projects } from './Pages/Projects';
 import { Contact } from './Pages/Contact';
+import Git from './Pages/Git';
 function App() {
   document.title = "Rishav's Portfolio";
 
@@ -17,22 +18,17 @@ function App() {
 
   useEffect(() => (window.onresize = updateSize), []);
 
-  const HomeRef = useRef();
-  const AboutRef = useRef();
-  const SkillsRef = useRef();
-  const ProjRef = useRef();
-  const ConRef = useRef();
-
   return (
     <div className="App">
       {
-        size >= 525 ? <Desktop home={HomeRef} about={AboutRef} skill={SkillsRef} proj={ProjRef} contact={ConRef} /> : <Mobile home={HomeRef} about={AboutRef} skill={SkillsRef} proj={ProjRef} contact={ConRef} />
+        size >= 525 ? <Desktop /> : <Mobile />
       }
-      <Home HomeRef={HomeRef} />
-      <About AboutRef={AboutRef} />
-      <Skills SkillsRef={SkillsRef} />
-      <Projects ProjRef={ProjRef} />
-      <Contact ConRef={ConRef} />
+      <Home/>
+      <About />
+      <Skills />
+      <Projects />
+      <Git />
+      <Contact />
     </div>
   );
 }
