@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { Desktop } from './Components/Navbar/Desktop';
 import Mobile from './Components/Navbar/Mobile';
