@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9717698d.css",
-    "main.js": "/static/js/main.d5b845ab.js",
+    "main.js": "/static/js/main.9a63df8f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Rishav.jpg": "/static/media/Rishav.818312424583011928ea.jpg",
     "static/media/rishav-neogi-resume.pdf": "/static/media/rishav-neogi-resume.e957a5d851fc5c2d49d3.pdf",
@@ -10,11 +10,11 @@
     "static/media/Getharvest.jpeg": "/static/media/Getharvest.7635752c4bad57981543.jpeg",
     "index.html": "/index.html",
     "main.9717698d.css.map": "/static/css/main.9717698d.css.map",
-    "main.d5b845ab.js.map": "/static/js/main.d5b845ab.js.map",
+    "main.9a63df8f.js.map": "/static/js/main.9a63df8f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9717698d.css",
-    "static/js/main.d5b845ab.js"
+    "static/js/main.9a63df8f.js"
   ]
 }
