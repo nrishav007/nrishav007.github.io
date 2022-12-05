@@ -10,7 +10,7 @@ const Desktop = () => {
         { name: "Skills" },
         { name: "Projects" },
         { name: "Contact" }];
-        const [visible,setVisible] = useState(false)
+        const [,setVisible] = useState(false)
         const closeMenu = ()=>{
             setVisible(true)
         }

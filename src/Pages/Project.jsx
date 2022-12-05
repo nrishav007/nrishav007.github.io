@@ -28,11 +28,11 @@ const Project = ({ title, bio, image, github, live,type,techStack,area }) => {
 
                 <SimpleGrid columns={[1, 1, 2, 2]} gap="10px">
                     <Center>
-                        <a style={{ width: "330px" }} href={github} target="_blank">
+                        <a style={{ width: "330px" }} href={github} target="_blank" rel='noreferrer'>
                             <Button w={"50%"} color={"white"} backgroundColor={"blue.700"} className='NavBtn' ><GitHubIcon margin={"10px"} />Github</Button></a>
                     </Center>
                     <Center>
-                        <a style={{ width: "330px" }} href={live} target="_blank">
+                        <a style={{ width: "330px" }} href={live} target="_blank" rel='noreferrer'>
                             <Button w={"50%"} color={"white"} backgroundColor={"blue.700"} className='NavBtn' > <LinkIcon /> Live</Button></a>
                     </Center>
                 </SimpleGrid>

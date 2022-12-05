@@ -11,7 +11,7 @@ const Mobile = () => {
         {name: "Skills"},
         {name: "Projects"},
         {name: "Contact"}];
-        const [visible,setVisible] = useState(false)
+        const [,setVisible] = useState(false)
         const closeMenu = ()=>{
             setVisible(true)
         }    
@@ -38,7 +38,7 @@ const Mobile = () => {
                         {
                             tabs.map(({name}, index)=>(
                                 <Link to={name} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}}>
-                                <Box key={index} onClick={onClose} marginBottom={9} textAlign={"center"}>{name}</Box></Link>
+                                <Box cursor={"pointer"} key={index} onClick={onClose} marginBottom={9} textAlign={"center"}>{name}</Box></Link>
                             ))
                         }
                         

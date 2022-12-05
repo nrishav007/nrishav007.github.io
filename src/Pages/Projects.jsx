@@ -1,4 +1,4 @@
-import { Box, Button, Center, Flex, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Center, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import '../App.css';
 import MailChimp from "./MailChimp.jpeg";
@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <Box w={"full"} id="Projects" textColor={"white"} backgroundColor={"blue.700"} h={"auto"} paddingBottom={"30px"}>
       <Center>
-        <Text color={"white"} fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"100px"}>Projects</Text>
+        <Text color={"white"} fontSize={"40px"} fontWeight={"bold"} marginBottom={"50px"} marginTop={"30px"}>Projects</Text>
 
       </Center>
       {/* <Flex justifyContent={"space-around"} marginTop={"20px"} marginBottom={"50px"}>
@@ -32,6 +32,7 @@ const Projects = () => {
 
         <Project title="Getharvest" bio='Getharvest is a web-based time tracking tool developed and launched by Iridesco LLC in 2006.' image={Getharvest} github="https://github.com/nrishav007/Getharvest_Clone" live="https://getharvest-clone-blond.vercel.app/" techStack="HTML | CSS | JS | React | Chakra UI" type="Individual" area="I made the Homepage , Loginpage and Signup" />
 
+        <Project title="My TV+" bio='My TV+ is inspired project of Apple TV+ is an American subscription streaming service owned and operated by Apple Inc' image="https://user-images.githubusercontent.com/102036593/202791355-4f220ecf-77b6-4a76-a8b2-709e19c2415d.jpg" github="https://github.com/priyanshu1120/bent-tail-4615" live="https://appletv-iakashmondal.vercel.app/" techStack="React | CSS | JS | Redux | Chakra UI | Custom Library" type="Group" area="I made the Custom Slider and Backend Database" />
       </SimpleGrid>
     </Box>
   )
