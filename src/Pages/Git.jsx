@@ -3,9 +3,9 @@ import React from 'react'
 import GitHubCalendar from 'react-github-calendar';
 const Git = () => {
     return (
-        <Box backgroundColor={"blue.700"} color="white" paddingBottom={"20px"}>
+        <Box paddingBottom={"20px"}>
             <Center>
-                <Text color={"white"} fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"70px"}>GitHub Stat and Calender</Text>
+                <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"70px"}>GitHub Stat and Calender</Text>
             </Center>
             <Center>
                 <GitHubCalendar username="nrishav007" />

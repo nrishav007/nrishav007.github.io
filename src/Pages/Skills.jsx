@@ -42,7 +42,7 @@ const Skills = () => {
     }
   ];
   return (
-    <Box backgroundColor={"blue.700"} color="white" h={"full"} id="Skills">
+    <Box h={"full"} id="Skills">
       <Center>
         <Text marginTop={"30px"} fontSize={["20px", "20px", "20px", "35px"]}>
           Skills that I know
@@ -57,8 +57,8 @@ const Skills = () => {
                   style={{ margin: "10px" }}
                   src={ele.src}
                   alt={ele.alt}
-                  height={["90", "90", "100", "150px"]}
-                  width={["90", "90", "100", "150px"]}
+                  height={["90", "90", "100", "100px"]}
+                  width={["90", "90", "100", "100px"]}
                 />
               </Center>
               <Center>

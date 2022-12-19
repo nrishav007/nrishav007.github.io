@@ -15,11 +15,11 @@ const Project = ({ title, bio, image, github, live,type,techStack,area }) => {
                         <Text w={"80%"}>{bio}</Text>
                     </Center>
                     <Center>
-                        <Text w={"50%"} color={"yellow"} mr="6px">My Area of Responsibilities are :</Text> <Text w={"50%"}>{area}</Text>
+                        <Text w={"50%"} mr="6px">My Area of Responsibilities are :</Text> <Text w={"50%"}>{area}</Text>
                     </Center>
                 <SimpleGrid columns={[1, 1, 2, 2]} margin={"20px"} gap="10px">
                     <Center>
-                        <Text fontSize={"15px"} color="yellow">Tech Stack :&nbsp;</Text>
+                        <Text fontSize={"15px"}>Tech Stack :&nbsp;</Text>
                     </Center>
                     <Center fontSize={"15px"}>{techStack}</Center>
                     <Center marginLeft={"5%"} fontSize={"15px"} color="yellow">Project Type :&nbsp;</Center>

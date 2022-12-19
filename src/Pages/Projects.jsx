@@ -12,9 +12,9 @@ const Projects = () => {
   //   { type: "Group Projects" },
   //   { type: "All Projects" }];
   return (
-    <Box w={"full"} id="Projects" textColor={"white"} backgroundColor={"blue.700"} h={"auto"} paddingBottom={"30px"}>
+    <Box w={"full"} id="Projects" h={"auto"} paddingBottom={"30px"}>
       <Center>
-        <Text color={"white"} fontSize={"40px"} fontWeight={"bold"} marginBottom={"50px"} marginTop={"30px"}>Projects</Text>
+        <Text fontSize={"40px"} fontWeight={"bold"} marginBottom={"50px"} marginTop={"30px"}>Projects</Text>
 
       </Center>
       {/* <Flex justifyContent={"space-around"} marginTop={"20px"} marginBottom={"50px"}>

@@ -25,9 +25,9 @@ const Contact = () => {
       });
   }
   return (
-    <Box id='Contact' backgroundColor={"blue.700"} >
+    <Box id='Contact' >
       <Center>
-        <Text color={"white"} fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"100px"}>Contact Me</Text>
+        <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"100px"}>Contact Me</Text>
       </Center>
       <SimpleGrid columns={[1, 1, 1, 2]} justifyContent={"space-around"}>
         <Flex direction={"column"} gap="20px">
