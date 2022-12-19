@@ -20,7 +20,7 @@ function App() {
   useEffect(() => (window.onresize = updateSize), []);
 
   return (
-    <Box className="App">
+    <Box className="App" color={"white"}>
       <Font family="Ultra" weight={600}>
         {size >= 525 ? <Desktop /> : <Mobile />}
         <Home />
@@ -29,7 +29,7 @@ function App() {
         <Projects />
         <Git />
         <Contact />
-        <Box h={"90px"} pt={"25px"}>
+        <Box h={"90px"} pt={"25px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
             <Text fontSize={"25px"}>Made by Rishav Neogi</Text>
         </Box>
       </Font>

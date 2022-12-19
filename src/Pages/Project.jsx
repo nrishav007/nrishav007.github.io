@@ -4,7 +4,7 @@ import LinkIcon from '@mui/icons-material/Link';
 const Project = ({ title, bio, image, github, live,type,techStack,area }) => {
 
     return (
-        <SimpleGrid columns={1} id='proj' gap={"10px"} padding={"20px"} w={"90%"}>
+        <SimpleGrid columns={1} id='proj' gap={"10px"} padding={"20px"} w={"90%"} >
                     <Center>
                         <Img margin={"20px"} w={["250px","300px","350px","450px"]} h={["100px","150px","200px","250px"]} src={image} />
                     </Center>
@@ -19,7 +19,7 @@ const Project = ({ title, bio, image, github, live,type,techStack,area }) => {
                     </Center>
                 <SimpleGrid columns={[1, 1, 2, 2]} margin={"20px"} gap="10px">
                     <Center>
-                        <Text fontSize={"15px"}>Tech Stack :&nbsp;</Text>
+                        <Text color={"yellow"}  fontSize={"15px"}>Tech Stack :&nbsp;</Text>
                     </Center>
                     <Center fontSize={"15px"}>{techStack}</Center>
                     <Center marginLeft={"5%"} fontSize={"15px"} color="yellow">Project Type :&nbsp;</Center>

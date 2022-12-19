@@ -42,7 +42,7 @@ const Skills = () => {
     }
   ];
   return (
-    <Box h={"full"} id="Skills">
+    <Box h={"full"} id="Skills" bgGradient='linear(to-r,#185a9d, #43cea2)'>
       <Center>
         <Text marginTop={"30px"} fontSize={["20px", "20px", "20px", "35px"]}>
           Skills that I know

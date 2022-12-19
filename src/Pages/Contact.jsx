@@ -25,7 +25,7 @@ const Contact = () => {
       });
   }
   return (
-    <Box id='Contact' >
+    <Box id='Contact' bgGradient='linear(to-r,#43cea2,#185a9d)' paddingBottom={"20px"}>
       <Center>
         <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"100px"}>Contact Me</Text>
       </Center>
@@ -55,7 +55,7 @@ const Contact = () => {
             <Center>
               <Textarea name="message" required={true} mb="20px" w={"400px"} backgroundColor="white" placeholder='Enter Your feedback/query' ></Textarea></Center>
             <Center>
-              <Button onClick={handleMail}>Submit</Button>
+              <Button color={"black"} onClick={handleMail}>Submit</Button>
             </Center>
           </form>
         </Box>
