@@ -8,7 +8,7 @@ import { Skills } from "./Pages/Skills";
 import { Projects } from "./Pages/Projects";
 import { Contact } from "./Pages/Contact";
 import Git from "./Pages/Git";
-import { Box } from "@chakra-ui/react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import Font from "react-font";
 function App() {
   document.title = "Rishav's Portfolio";
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <Box className="App">
-      <Font family='Ultra' weight={600}>
+      <Font family="Ultra" weight={600}>
         {size >= 525 ? <Desktop /> : <Mobile />}
         <Home />
         <About />
@@ -29,6 +29,9 @@ function App() {
         <Projects />
         <Git />
         <Contact />
+        <Box h={"90px"} backgroundColor={"blue.700"} pt={"25px"}>
+            <Text color={"white"} fontSize={"25px"}>Made by Rishav Neogi</Text>
+        </Box>
       </Font>
     </Box>
   );
