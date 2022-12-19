@@ -1,6 +1,7 @@
 import { Box, Center, Flex, Image, Input, Link, SimpleGrid, Text, Button, Textarea, useToast } from '@chakra-ui/react'
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
+import { PhoneIcon } from '@chakra-ui/icons';
 
 const Contact = () => {
   const form = useRef();
@@ -37,6 +38,12 @@ const Contact = () => {
           <Center>
             <Image w={"50px"} src="https://img.icons8.com/color/344/linkedin-circled--v1.png" />
             <Link color='white' href='https://linkedin.com/in/rishav-neogi'>rishav-neogi</Link>
+          </Center>
+          <Center pl={"30px"}>
+          <PhoneIcon />
+          <Box pl={"10px"}>
+            <Link color='white' href=''>+91 9432282245</Link>
+            </Box>
           </Center>
         </Flex>
         <Box ml={["0px", "0px", "0px", "-200px"]} >
