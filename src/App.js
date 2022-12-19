@@ -8,7 +8,7 @@ import { Skills } from "./Pages/Skills";
 import { Projects } from "./Pages/Projects";
 import { Contact } from "./Pages/Contact";
 import Git from "./Pages/Git";
-import { Box, Center, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import Font from "react-font";
 function App() {
   document.title = "Rishav's Portfolio";
