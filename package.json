@@ -20,6 +20,7 @@
     "github-calendar": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-font": "^1.2.1",
     "react-github-calendar": "^3.3.4",
     "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.2",
