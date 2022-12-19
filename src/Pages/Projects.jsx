@@ -12,7 +12,7 @@ const Projects = () => {
   //   { type: "Group Projects" },
   //   { type: "All Projects" }];
   return (
-    <Box w={"full"} id="Projects" h={"auto"} paddingBottom={"30px"} bgGradient='linear(to-r,#43cea2,#185a9d)'>
+    <Box w={"full"} id="Projects" h={"auto"} paddingBottom={"30px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
       <Center>
         <Text fontSize={"40px"} fontWeight={"bold"} marginBottom={"50px"} marginTop={"30px"}>Projects</Text>
 

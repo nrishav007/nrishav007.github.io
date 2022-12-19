@@ -29,8 +29,8 @@ function App() {
         <Projects />
         <Git />
         <Contact />
-        <Box h={"90px"} pt={"25px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
-            <Text fontSize={"25px"}>Made by Rishav Neogi</Text>
+        <Box h={"90px"} pt={"25px"}>
+            <Text color={"black"} fontSize={"25px"}>Made by Rishav Neogi</Text>
         </Box>
       </Font>
     </Box>

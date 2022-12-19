@@ -25,7 +25,7 @@ const Contact = () => {
       });
   }
   return (
-    <Box id='Contact' bgGradient='linear(to-r,#43cea2,#185a9d)' paddingBottom={"20px"}>
+    <Box id='Contact' bgGradient='linear(to-r,#185a9d, #43cea2)' paddingBottom={"20px"}>
       <Center>
         <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"100px"}>Contact Me</Text>
       </Center>
