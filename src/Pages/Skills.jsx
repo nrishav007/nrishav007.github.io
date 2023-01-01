@@ -44,14 +44,14 @@ const Skills = () => {
   return (
     <Box h={"full"} id="Skills" bgGradient='linear(to-r,#185a9d, #43cea2)'>
       <Center>
-        <Text marginTop={"30px"} fontSize={["20px", "20px", "20px", "35px"]}>
-          Skills that I know
+        <Text fontWeight={"bold"} marginTop={"30px"} fontSize={["20px", "20px", "20px", "35px"]}>
+          Technical Skills
         </Text>
       </Center>
       <SimpleGrid columns={[2, 2, 3, 4]} marginTop="70px">
-        {skills.map((ele) => {
+        {skills.map((ele,ind) => {
           return (
-            <Flex direction={"column"} mb={"10px"}>
+            <Flex direction={"column"} mb={"10px"} key={ind}>
               <Center>
                 <Img
                   style={{ margin: "10px" }}

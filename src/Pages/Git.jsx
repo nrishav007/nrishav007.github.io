@@ -5,7 +5,7 @@ const Git = () => {
     return (
         <Box paddingBottom={"20px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
             <Center>
-                <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"70px"}>GitHub Stat and Calender</Text>
+                <Text fontSize={"40px"} fontWeight={"bold"} marginTop={"20px"} marginBottom={"70px"}>GitHub Stats and Calender</Text>
             </Center>
             <Center>
                 <GitHubCalendar username="nrishav007" />

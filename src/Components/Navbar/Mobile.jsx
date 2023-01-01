@@ -2,6 +2,7 @@ import { Box, Button, Center, Drawer, DrawerBody, DrawerCloseButton, DrawerConte
 import React, { useState } from 'react';
 import {  IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
+import rishav from "../Resources/rishav-neogi-resume.pdf";
 const Mobile = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const btnRef = React.useRef()
@@ -32,18 +33,17 @@ const Mobile = () => {
                 <DrawerOverlay />
                 <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader>Have a look...</DrawerHeader>
+                    <DrawerHeader></DrawerHeader>
 
                     <DrawerBody>
                         {
                             tabs.map(({name}, index)=>(
-                                <Link to={name} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}}>
+                                <Link to={name} spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{closeMenu()}} key={index}>
                                 <Box cursor={"pointer"} key={index} onClick={onClose} marginBottom={9} textAlign={"center"}>{name}</Box></Link>
                             ))
                         }
-                        
+                        <a href={rishav} download={true}><Box cursor={"pointer"} marginBottom={9} textAlign={"center"} >Resume</Box></a>
                     </DrawerBody>
-
                 </DrawerContent>
             </Drawer>
         </Box>

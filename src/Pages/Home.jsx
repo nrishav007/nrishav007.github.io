@@ -3,7 +3,7 @@ import React from "react";
 import Rishav from "../Components/Resources/Rishav.jpg";
 const Home = () => {
   return (
-    <Box id="Home" h={"550px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
+    <Box id="Home" h={"auto"} pb={"60px"} bgGradient='linear(to-r,#185a9d, #43cea2)'>
         {/* <img src="https://readme-typing-svg.demolab.com/?lines=Type+messages+everywhere!;Add+a+bio+to+your+profile!;Add+a+description+to+your+repo!;Make+your+readme+stand+out!&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000"></img> */}
         <Flex
           paddingTop={"70px"}
