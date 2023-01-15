@@ -98,7 +98,7 @@ const Contact = () => {
               w={"50px"}
               src="https://img.icons8.com/ios-glyphs/344/github.png"
             />
-            <Link color="white" href="https://github.com/nrishav007">
+            <Link isExternal={true} color="white" href="https://github.com/nrishav007">
               Rishav Neogi
             </Link>
           </Center>
@@ -107,7 +107,7 @@ const Contact = () => {
               w={"50px"}
               src="https://img.icons8.com/color/344/linkedin-circled--v1.png"
             />
-            <Link color="white" href="https://linkedin.com/in/rishav-neogi">
+            <Link isExternal={true} color="white" href="https://linkedin.com/in/rishav-neogi">
             Rishav Neogi
             </Link>
           </Center>
@@ -118,7 +118,7 @@ const Contact = () => {
             </Box>
             </Box>
             <Box pl={"5px"} pb={"20px"}>
-              <Link color="white" href="tel:+919432282245">
+              <Link isExternal={true} color="white" href="tel:+919432282245">
                 +91 9432282245
               </Link>
             </Box>

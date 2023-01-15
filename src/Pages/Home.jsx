@@ -30,9 +30,9 @@ const Home = () => {
           </Box>
           <Img
             marginTop={"25px"}
-            w={["150px", "150px", "250px", "300px"]}
+            w={["150px", "150px", "200px", "300px"]}
             borderRadius="10%"
-            h={["180px", "180px", "250px", "350px"]}
+            h={["180px", "180px", "250px", "370px"]}
             src={Rishav}
             alt="port"
           />

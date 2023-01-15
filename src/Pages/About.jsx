@@ -7,7 +7,7 @@ const About = () => {
       <Box paddingTop={"10px"} h={"full"} paddingBottom={"50px"}>
         <Text fontWeight={"bold"} fontSize={["10px","20px","20px","35px"]} marginBottom="50px">About Me</Text>
         <Center>
-          <Text w={["95%","95%","50%","60%"]} fontSize={["10px","15px","15px","20px"]} lineHeight={"50px"}>A passionate Full Stack Web Developer, Dedicated to developing robust applications that interact with the Frontend part of web applications. Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</Text>
+          <Text w={["95%","95%","50%","60%"]} fontSize={["10px","15px","15px","22px"]} lineHeight={"40px"}>Web developer with a strong focus on React. Proficient in HTML, CSS, JavaScript, MongoDB, Express, and node. Skilled in creating responsive, user-friendly websites with a strong emphasis on design. Proven ability to adapt to new technologies and collaborate effectively in a team environment.</Text>
         </Center>
       </Box>
     </Box>
