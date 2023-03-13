@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.2348ed70.css",
-    "main.js": "/static/js/main.c1363ab0.js",
+    "main.js": "/static/js/main.b8f386db.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Rishav.jpg": "/static/media/Rishav.b5d140531c171b1dc1bf.jpg",
-    "static/media/rishav-neogi-resume.pdf": "/static/media/rishav-neogi-resume.f14be732de0cdf752b82.pdf",
+    "static/media/rishav_neogi_resume.pdf": "/static/media/rishav_neogi_resume.4676366bd0337a308d1a.pdf",
     "static/media/Dermstore.jpeg": "/static/media/Dermstore.d39be06cdd12fc10687a.jpeg",
     "static/media/MailChimp.jpeg": "/static/media/MailChimp.233c939d49b68223210a.jpeg",
     "static/media/Getharvest.jpeg": "/static/media/Getharvest.7635752c4bad57981543.jpeg",
     "index.html": "/index.html",
     "main.2348ed70.css.map": "/static/css/main.2348ed70.css.map",
-    "main.c1363ab0.js.map": "/static/js/main.c1363ab0.js.map",
+    "main.b8f386db.js.map": "/static/js/main.b8f386db.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2348ed70.css",
-    "static/js/main.c1363ab0.js"
+    "static/js/main.b8f386db.js"
   ]
 }
