@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Center, Flex, SimpleGrid } from '@chakra-ui/react';
 import './Nav.css';
-import rishav from "../Resources/rishav-neogi-resume.pdf";
+import rishav from "../Resources/rishav_neogi_resume.pdf";
 import { Link } from 'react-scroll';
 const Desktop = () => {
     const tabs = [

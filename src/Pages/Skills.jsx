@@ -24,7 +24,7 @@ const Skills = () => {
     },
     
     {
-      src: "https://i.ibb.co/LxLnj6F/kisspng-mongodb-inc-computer-software-business-software-d-bay-leaves-5ac2915d780ea2-2723311115227006.png",
+      src: "https://i.ibb.co/vvcTxwX/mongo.png",
       alt: "MongoDb"
     },
     {

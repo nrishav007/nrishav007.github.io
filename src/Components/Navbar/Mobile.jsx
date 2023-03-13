@@ -2,7 +2,7 @@ import { Box, Button, Center, Drawer, DrawerBody, DrawerCloseButton, DrawerConte
 import React, { useState } from 'react';
 import {  IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import rishav from "../Resources/rishav-neogi-resume.pdf";
+import rishav from "../Resources/rishav_neogi_resume.pdf";
 const Mobile = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const btnRef = React.useRef()

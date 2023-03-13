@@ -107,7 +107,7 @@ const Contact = () => {
               w={"50px"}
               src="https://img.icons8.com/color/344/linkedin-circled--v1.png"
             />
-            <Link isExternal={true} color="white" href="https://linkedin.com/in/rishav-neogi">
+            <Link isExternal={true} color="white" href="https://www.linkedin.com/in/rishav-neogi-b72470199/">
             Rishav Neogi
             </Link>
           </Center>
